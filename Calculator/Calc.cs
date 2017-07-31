@@ -41,7 +41,7 @@ namespace Calculator
             }
 
             double z;
-            z = x / y;
+            z = (double)x / y;
             return z;
         }
 

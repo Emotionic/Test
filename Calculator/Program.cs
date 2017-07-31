@@ -44,7 +44,7 @@ namespace Calculator
 
                 case '/':
                     double ans = calc.Div(x, y);
-                    Console.WriteLine("Ans : " + ans);
+                    Console.WriteLine($"Ans : {ans,0:f4}");
                     break;
 
                 default:
