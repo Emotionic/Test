@@ -37,6 +37,16 @@ namespace Calculator
                     Console.WriteLine("Ans : " + z);
                     break;
 
+                case '*':
+                    z = calc.Mul(x, y);
+                    Console.WriteLine("Ans : " + z);
+                    break;
+
+                case '/':
+                    double ans = calc.Div(x, y);
+                    Console.WriteLine("Ans : " + ans);
+                    break;
+
                 default:
                     Console.WriteLine("しらん : " + op);
                     break;
