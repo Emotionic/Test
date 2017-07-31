@@ -24,5 +24,21 @@ namespace Calculator
             return z;
         }
 
+        // 掛け算
+        public int Mul(int x, int y)
+        {
+            int z;
+            z = x * y;
+            return z;
+        }
+
+        // 割り算
+        public double Div(int x, int y)
+        {
+            double z;
+            z = x / y;
+            return z;
+        }
+
     }
 }
