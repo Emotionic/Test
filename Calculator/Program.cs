@@ -33,7 +33,7 @@ namespace Calculator
                     break;
 
                 case '-':
-                    z = calc.Sum(x, y);
+                    z = calc.Sub(x, y);
                     Console.WriteLine("Ans : " + z);
                     break;
 
