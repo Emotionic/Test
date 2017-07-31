@@ -19,7 +19,7 @@ namespace Calculator
             y = int.Parse(Console.ReadLine());
 
             // 計算するよ
-            Console.Write("+/- >");
+            Console.Write("+/-/*// >");
             var input = Console.ReadLine();
             var op = input[0];
 
