@@ -35,6 +35,11 @@ namespace Calculator
         // 割り算
         public double Div(int x, int y)
         {
+            if (y == 0)
+            {
+                return 0;
+            }
+
             double z;
             z = x / y;
             return z;
